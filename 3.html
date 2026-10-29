@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>DropDown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        select {
+            width: 250px;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        select:hover {
+            border-color: blue;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: red;
+            box-shadow: 0 0 8px lightblue;
+        }
+    </style>
+</head>
+    <body>
+        <h2>DropDown</h2>
+    <label for="education-level"><b>select course:</b></label>
+    <select name="edulevel" id="education-level" required>
+        <option value="" disabled selected> UG or PG or NONE</option>
+        <option value="UG">Undergraduated</option>
+        <option value="PG">Postgraduated</option>
+        <option value="NONE">Intermediate</option>
+    </select>
+    </body>
+</html>
